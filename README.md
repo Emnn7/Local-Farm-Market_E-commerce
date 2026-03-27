@@ -1,66 +1,90 @@
-# 🛒 Local Farm Market eCommerce Platform
+🛒 Local Farm Market eCommerce Platform
 
-A full-stack E-Commerce web application developed collaboratively by a group of five Computer Science students. 
-This platform aims to support local farm markets by allowing customers to browse farm products online, while 
-providing administrators with powerful tools to manage products, events, blogs, and customer engagement.
+A full-stack eCommerce platform designed to support local farm markets. Customers can browse and purchase products online, while administrators manage products, users, and customer interactions. The system implements secure authentication, role-based access, and responsive design.
 
 ---
 
-## 👥 Project Team
+🚀 Live Demo
 
-- Firdews Seifu Kemal – Full Stack Developer
-- Hikma Oumer Esmail – Frontend Developer  
-- Eman Bedru Kemal – Backend Developer  
-- Abigiya Demissew Degefu – UI/UX Designer  
-- Nawal Mohammed Eshetu – Database & Security Lead  
-
-> This project was completed as part of a team assignment. All features were planned, built, and tested collaboratively.
+🔗 (Add your deployed link here)
 
 ---
 
-## 🌟 Key Features
+📌 Overview
 
-- 🔍 Browse and search farm products by category
-- 🧾 User registration, login, and profile management
-- 🛠️ Admin dashboard for managing:
-  - Products
-  - Users
-- 💬 Customer review system
-- 🧑‍🌾 Designed with Tailwind CSS and mobile responsiveness
-- 🔐 JWT authentication and role-based access control
+This platform streamlines the process of buying and managing farm products online. It supports multiple user roles, allowing admins to manage inventory and users, while customers can explore products, leave reviews, and interact with the marketplace. The project was developed collaboratively with a focus on backend architecture and API integration.
 
 ---
 
-## 🛠️ Tech Stack
+✨ Key Features
 
-- Frontend: React.js,CSS, Axios, React Router
-- Backend: Node.js, Express.js, MongoDB, Mongoose, Multer
-- Authentication: JSON Web Token (JWT)
-- Deployment: Currently running locally. Hosting coming soon.
+* Role-based access control: Admin and Customer accounts
+* Product management: Browse, search, and view products
+* User management: Registration, login, profile management
+* Admin dashboard: Manage products and users
+* Customer review system for products
+* Responsive UI designed with Tailwind CSS
+* Secure backend with JWT authentication and role-based permissions
 
 ---
 
-## 📁 Project Structure
+👨‍💻 My Contribution (Backend Developer)
+
+* Developed RESTful APIs for products, users, and authentication
+* Implemented JWT-based authentication and role-based authorization
+* Designed database models and integrated MongoDB with backend services
+* Connected backend APIs with React frontend for full-stack functionality
+
+---
+
+🛠 Tech Stack
+
+* Frontend: React.js, Tailwind CSS, Axios, React Router
+* Backend: Node.js, Express.js, MongoDB, Mongoose, Multer
+* Authentication: JSON Web Token (JWT)
+* Deployment: Currently running locally (free deployment coming soon)
+
+---
+
+📁 Project Structure
+
+```bash id="xg3h7l"
 local-farm-ecommerce/
-├── LocalFarmMarket-frontend/      # React frontend with CSS
-├── LocalFarmMarket-backend/      # Node.js backend with Express and MongoDB
+├── LocalFarmMarket-frontend/  # React frontend
+├── LocalFarmMarket-backend/   # Node.js backend
 └── README.md
+```
 
 ---
 
-## 🚀 Live Demo
+📸 Screenshots
 
-🟢 Coming Soon  
+🏠 Homepage
+![Homepage](./homepage.png)
+
+Product List
+![Product List](./product-list.png)
+
+📖 Product Detail
+![Product Detail](./product-detail.png)
+
+Loginpage
+![LoginPage](./login-page.png)
 
 ---
 
-## 💻 How to Run Locally
+💻 How to Run Locally
 
-### 1. Clone the Repository
+1. Clone the repository
+
+```bash
 git clone https://github.com/yourusername/local-farm-ecommerce.git
 cd local-farm-ecommerce
+```
 
-### 2. Install Dependencies
+2. Install dependencies
+
+```bash
 # Frontend
 cd LocalFarmMarket-frontend
 npm install
@@ -68,65 +92,31 @@ npm install
 # Backend
 cd ../LocalFarmMarket-backend
 npm install
+```
 
-### 3. Set Up Environment Variables
+3. Set up environment variables (backend `.env`):
 
-In /LocalFarmMarket-backend/.env, add the following:
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+```
 
-### 4. Start the Application
-# From the project root using concurrently
+4. Start the application
+   From project root (using concurrently):
+
+```bash
 npm run dev
+```
 
 ---
 
-## 🚧 Future Enhancements
+🚧 Future Enhancements
 
-- [ ] Add payment gateway integration (Stripe or Chapa)
-- [ ] Order processing and delivery tracking
-- [ ] Mobile PWA version for offline access
-- [ ] Role management and audit logging
-- [ ] Localization for multiple languages
-
----
-
-## 🤝 Contribution & Collaboration
-
-This project was a group effort, and each team member contributed to both planning and development.  
-If you'd like to contribute or review the code, feel free to open issues or pull requests.
-
----
-
-## 📬 Contact
-
-For questions, suggestions, or collaboration:
-
-Firdews Seifu Kemal  
-📍 Addis Ababa, Ethiopia  
-📩 firdewsSeifu96@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/firdews-seifu-45694b301/)
+* Payment gateway integration (Stripe/Chapa)
+* Order processing and delivery tracking
+* Mobile PWA version for offline use
+* Role management and audit logging
+* Multi-language support
 
 
-Notes: The Project is for educational use. You may modify it freely.
-
-Eman Berdu Kemal  
-📍 Addis Ababa, Ethiopia  
-📩 emnn788@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/eman-bedru-83596a304)
-
-Hikma Oumer Esmail  
-📍 Addis Ababa, Ethiopia  
-📩 hikuoumer@gmail.com 
-🔗 [LinkedIn](https://www.linkedin.com/in/hikma-oumer-749722262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
-
-Nawal Mohammed Eshetu  
-📍 Addis Ababa, Ethiopia  
-📩 -- 
-🔗 [LinkedIn](--)
-
-Abigiya Demissew Degefu  
-📍 Addis Ababa, Ethiopia  
-📩 -- 
-🔗 [LinkedIn](--)
